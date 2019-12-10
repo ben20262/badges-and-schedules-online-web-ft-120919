@@ -15,5 +15,5 @@ def room_assignment (array)
   array.each_index do |index|
     brray << "Hello, #{array[index]}! You'll be assigned to room #{index}"
   end
-  nrray
+  brray
 end
