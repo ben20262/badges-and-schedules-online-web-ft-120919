@@ -10,10 +10,16 @@ def batch_badge_creator (array)
   brray
 end
 
-def room_assignment (array)
+def assing_rooms (array)
   brray
   array.each_index do |index|
     brray << "Hello, #{array[index]}! You'll be assigned to room #{index}"
   end
   brray
+end
+
+def printer (array)
+  batch_badge_creator(array)
+  assign_rooms(array)
+
 end
